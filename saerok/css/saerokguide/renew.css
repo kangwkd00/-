@@ -1,0 +1,84 @@
+@charset "UTF-8";
+@media screen and (min-width: 0\0) and (-webkit-min-device-pixel-ratio: 0), screen and (min-width: 0\0) and (min-resolution: 0.001dpcm) { select.select { background: none !important; padding-right: 0 !important; } }
+
+@font-face { font-family: "Helvetica Neue"; src: local("Helvetica Neue"); unicode-range: U+0020; }
+
+@font-face { font-family: "Arial"; src: local("Arial"); unicode-range: U+0020; }
+.sub_board {
+    position: relative;
+    padding: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.sub_board .board_view {
+    margin-bottom: 30px;
+    border-top: 1px solid #333333;
+    border-bottom: 1px solid #bbbbbb;
+    text-align: left;
+}
+
+.sub_board .board_view div.view_tit {
+    height: 20px;
+    line-height: 20px;
+    padding: 17px 30px;
+    border-bottom: 1px solid #333333;
+}
+.sub_board .board_view div.view_tit h2 {
+    float: left;
+    width: 85%;
+    font-size: 17px;
+    color: #222222;
+    font-weight: 600;
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    /* height: 20px; */
+    line-height: 0px;
+    /* border-bottom: 1px solid #333333; */
+}
+.sub_board .board_view div.view_tit p {
+    float: right;
+    width: 15%;
+    font-size: 13px;
+    color: #666666;
+    text-align: right;
+    line-height: 0px;
+}
+
+.sub_board .board_view div.view_cont {
+    padding: 30px;
+    font-size: 13px;
+    line-height: 25px;
+    min-height: 300px;
+}
+
+.btn_center {
+    text-align: center;
+}
+
+.btn_center a {
+    margin: 0 2px;
+}
+
+.orange {
+    background-color: #222;
+    border: 1px solid #222;
+}
+
+.btn {
+    display: inline-block;
+    font-size: 15px;
+    color: #ffffff;
+    font-weight: 600;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+}
+
+a {
+    color: #444;
+    text-decoration: none;
+    cursor: pointer;
+}
